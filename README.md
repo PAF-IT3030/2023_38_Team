@@ -1,5 +1,3 @@
-Please go under edit and edit this file as needed for your project
-
 # Team Name - 
 # Project Group - 
 ### Group Leader - IT20247140 - Disanayaka D.M.N.J(group leader)
