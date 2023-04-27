@@ -1,5 +1,8 @@
 package com.example.backend.repository;
 
-public class CommentRepository {
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class CommentRepository  extends JpaRepository <Comment, UUID> {
     
 }
