@@ -4,12 +4,11 @@ import java.sql.Timestamp;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
 
 @Entity(name = "Post")
 public class Post {
 
-    @Id
+    @jakarta.persistence.Id
     @GeneratedValue
     private int Id;
 
@@ -90,4 +89,5 @@ public class Post {
     public void setLikeCount(int likeCount) {
         this.likeCount = likeCount;
     }
+
 }
