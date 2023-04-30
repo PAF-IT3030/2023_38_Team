@@ -31,5 +31,4 @@ public class CommentController {
     private ArrayList<Comments> getCommentsForPost(@PathVariable("postId") String postId) {
         return commentsService.getAllCommentsForDB(postId);
     }
-
 }
