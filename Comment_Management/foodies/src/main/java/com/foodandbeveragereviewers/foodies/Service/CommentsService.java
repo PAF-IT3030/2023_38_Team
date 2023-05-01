@@ -3,7 +3,7 @@ package com.foodandbeveragereviewers.foodies.Service;
 import java.util.ArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
-
+import org.springframework.data.repository.query.ReturnedType;
 import org.springframework.stereotype.Service;
 
 import com.foodandbeveragereviewers.foodies.Entity.Comments;
@@ -34,6 +34,11 @@ public class CommentsService {
 
         return commentList;
 
+    }
+
+    public ArrayList<Comments> getAllComments() {
+
+        return commentRepo.findAll();
     }
 
 }

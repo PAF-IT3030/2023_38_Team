@@ -31,4 +31,9 @@ public class CommentController {
     private ArrayList<Comments> getCommentsForPost(@PathVariable("postId") String postId) {
         return commentsService.getAllCommentsForDB(postId);
     }
+
+    @GetMapping("")
+    private ArrayList<Comments> getAllComments() {
+        return commentsService.getAllComments();
+    }
 }
