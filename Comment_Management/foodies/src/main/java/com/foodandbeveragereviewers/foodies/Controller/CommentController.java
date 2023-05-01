@@ -3,7 +3,6 @@ package com.foodandbeveragereviewers.foodies.Controller;
 import java.util.ArrayList;
 import java.util.Optional;
 
-import org.attoparser.dom.Comment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -35,14 +34,14 @@ public class CommentController {
         return commentsService.submitCommentToDB(comment);
     }
 
-    @GetMapping("/{postId}")
-    private ArrayList<Comments> getCommentsForPost(@PathVariable("postId") String postId) {
-        return commentsService.getAllCommentsForDB(postId);
-    }
-
     @GetMapping("")
     private ArrayList<Comments> getAllComments() {
         return commentsService.getAllComments();
+    }
+
+    @GetMapping("/{postId}")
+    private ArrayList<Comments> getCommentsForPost(@PathVariable("postId") String postId) {
+        return commentsService.getAllCommentsForDB(postId);
     }
 
     @DeleteMapping("/delete/{id}")
