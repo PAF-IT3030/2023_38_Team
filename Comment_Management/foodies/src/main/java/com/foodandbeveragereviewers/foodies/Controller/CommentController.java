@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -35,5 +36,10 @@ public class CommentController {
     @GetMapping("")
     private ArrayList<Comments> getAllComments() {
         return commentsService.getAllComments();
+    }
+
+    @DeleteMapping("/delete/{commentId}")
+    public void deleteComment(@PathVariable String commentId) {
+        commentsService.deleteComment(commentId);
     }
 }

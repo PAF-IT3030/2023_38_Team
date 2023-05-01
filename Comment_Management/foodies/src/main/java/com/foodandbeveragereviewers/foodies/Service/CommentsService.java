@@ -2,8 +2,10 @@ package com.foodandbeveragereviewers.foodies.Service;
 
 import java.util.ArrayList;
 
+import org.attoparser.dom.Comment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.ReturnedType;
+import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 
 import com.foodandbeveragereviewers.foodies.Entity.Comments;
@@ -39,6 +41,11 @@ public class CommentsService {
     public ArrayList<Comments> getAllComments() {
 
         return commentRepo.findAll();
+    }
+
+    public void deleteComment(String commentId) {
+
+        commentRepo.deleteById(commentId);
     }
 
 }

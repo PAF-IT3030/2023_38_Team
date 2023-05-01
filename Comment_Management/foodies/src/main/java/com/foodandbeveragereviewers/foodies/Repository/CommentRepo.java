@@ -15,4 +15,6 @@ public interface CommentRepo extends CrudRepository<Comments, Integer> {
     ArrayList<Comments> findAllByPostId(String postId);
 
     ArrayList<Comments> findAll();
+
+    void deleteById(String commentId);
 }
