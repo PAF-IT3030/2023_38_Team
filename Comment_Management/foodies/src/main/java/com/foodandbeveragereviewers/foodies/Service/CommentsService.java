@@ -43,9 +43,4 @@ public class CommentsService {
         return commentRepo.findAll();
     }
 
-    public void deleteComment(String commentId) {
-
-        commentRepo.deleteById(commentId);
-    }
-
 }
