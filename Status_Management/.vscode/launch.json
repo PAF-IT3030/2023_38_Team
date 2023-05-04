@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FoodiesBackendApplication",
+      "request": "launch",
+      "mainClass": "com.foodies.foodiesbackend.FoodiesBackendApplication",
+      "projectName": "foodies-api"
+    },
+    {
+      "type": "java",
       "name": "Spring Boot-FoodiesApiApplication<foodies-api>",
       "request": "launch",
       "cwd": "${workspaceFolder}",
