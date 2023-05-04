@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-FoodiesApiApplication<foodies-api>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.example.foodiesapi.FoodiesApiApplication",
+      "projectName": "foodies-api",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
