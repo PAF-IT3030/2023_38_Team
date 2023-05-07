@@ -16,7 +16,7 @@ public class Users {
 	
 	@NotNull
 	private String userId;
-	private String userName;
+	private String userage;
 	private String name;
 	private String profileImage;
 	
