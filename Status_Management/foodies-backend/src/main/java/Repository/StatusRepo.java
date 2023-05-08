@@ -10,7 +10,7 @@ import Entity.Status;
 @Repository
 public interface StatusRepo extends CrudRepository<Status, Integer> {
 
-    Status save(Status save);
+    Status save(Status status);
 
     ArrayList<Status> findAll();
 }
