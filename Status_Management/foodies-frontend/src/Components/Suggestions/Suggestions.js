@@ -15,32 +15,32 @@ class Suggestions extends Component {
         <div>
             <div className="suggestions__container">
                 <div className="suggestions__header">
-                    <div>Suggestions For You</div>
+                    <div>Followers For You</div>
                 </div>
                 <div className="suggestions__body">
                     <div className="suggestions__friends">
                         <Avatar src={imageSrc1} className="suggestions__image"/>
-                        <div className="suggestions__username">testing_profile</div>
+                        <div className="suggestions__username">Deneth Sathsara</div>
                     </div>
                     <div className="suggestions__friends">
                         <Avatar src={imageSrc2} className="suggestions__image"/>
-                        <div className="suggestions__username">dummy_user</div>
+                        <div className="suggestions__username">Sathsara Madushan</div>
                     </div>
                     <div className="suggestions__friends">
                         <Avatar src={imageSrc3} className="suggestions__image"/>
-                        <div className="suggestions__username">technical_interview</div>
+                        <div className="suggestions__username">Pubudu Chathuranga</div>
                     </div>
                     <div className="suggestions__friends">
                         <Avatar src={imageSrc2} className="suggestions__image"/>
-                        <div className="suggestions__username">subscribe_me</div>
+                        <div className="suggestions__username">Pasindu Lakshan</div>
                     </div>
                     <div className="suggestions__friends">
                         <Avatar src={imageSrc3} className="suggestions__image"/>
-                        <div className="suggestions__username">like_and _share</div>
+                        <div className="suggestions__username">Lahiru Sandeep</div>
                     </div>
                     <div className="suggestions__friends">
                         <Avatar src={imageSrc1} className="suggestions__image"/>
-                        <div className="suggestions__username">hit_bell_icon</div>
+                        <div className="suggestions__username">Shehan Sandeep</div>
                     </div>
                 </div>
             </div>

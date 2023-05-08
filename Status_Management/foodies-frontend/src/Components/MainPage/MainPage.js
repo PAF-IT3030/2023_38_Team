@@ -23,21 +23,21 @@ class MainPage extends Component {
         let data=[
             {
                 "postId":"123456",
-                "userName":"anindya",
-                "postImageURL":"https://irixlens.com/new/wp-content/uploads/2018/11/IRX_5473.jpg",
+                "userName":"Deneth Anjana",
+                "postImageURL":"https://images.unsplash.com/photo-1590947132387-155cc02f3212?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
                 "timeStamp":"12345",
                 "likes":"1234"
             },
             {
                 "postId":"123456",
-                "userName":"anindya",
-                "postImageURL":"https://irixlens.com/new/wp-content/uploads/2018/11/IRX_5473.jpg",
+                "userName":"aSathsara Sandaru",
+                "postImageURL":"https://images.unsplash.com/photo-1586816001966-79b736744398?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGJ1cmdlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
                 "timeStamp":"12345",
                 "likes":"1234"
             },
             {
                 "postId":"123456",
-                "userName":"anindya",
+                "userName":"aPubudu Chathuranga",
                 "postImageURL":"https://irixlens.com/new/wp-content/uploads/2018/11/IRX_5473.jpg",
                 "timeStamp":"12345",
                 "likes":"1234"

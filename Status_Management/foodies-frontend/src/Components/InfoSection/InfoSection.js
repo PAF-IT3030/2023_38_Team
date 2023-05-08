@@ -14,8 +14,8 @@ class InfoSection extends Component {
             <div className="info__container">
                 <Avatar src={imageSrc} className="info__image"/>
                 <div className="info_content">
-                    <div className="info_username"> anindya_bunny</div>
-                    <div className="info_description"> Description</div>
+                    <div className="info_username"> Deneth Anjana</div>
+                    <div className="info_description"> Active Now</div>
                 </div>
             </div>
         </div> );

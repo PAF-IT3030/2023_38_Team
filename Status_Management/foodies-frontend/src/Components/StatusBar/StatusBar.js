@@ -19,27 +19,27 @@ class StatusBar extends Component {
     getData=()=>{
         let data=[
             {
-                "username":"anindya_bunny",
+                "username":"Deneth ",
                 "imageURL":"https://darresne.com/img/female-avatar.png"
              },
              {
-                "username":"abcs",
+                "username":"Sathsara",
                 "imageURL":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJYxr247w5ckIok4oLED58Lm7koT7pj4225A&usqp=CAU"
              },
              {
-                "username":"qwe",
+                "username":"Pubudu",
                 "imageURL":"https://www.w3schools.com/w3css/img_avatar3.png"
              },
              {
-                "username":"jyjj",
+                "username":"Pasindu",
                 "imageURL":"https://darresne.com/img/female-avatar.png"
              },
              {
-                "username":"jyjj",
+                "username":"Lahiru",
                 "imageURL":"https://www.w3schools.com/w3css/img_avatar3.png"
              },
              {
-                "username":"jyjj",
+                "username":"Shehan",
                 "imageURL":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGonDgYzVXUcaKSWbvyH_ICVD23aI4zlRMJQ&usqp=CAU"
              },
              {
