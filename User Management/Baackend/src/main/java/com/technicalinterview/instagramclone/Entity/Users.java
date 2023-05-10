@@ -17,6 +17,7 @@ public class Users {
 	@NotNull
 	private String userId;
 	private String userName;
+	private String genger;
 	private String name;
 	private String profileImage;
 	
@@ -29,6 +30,7 @@ public class Users {
 		this.id = id;
 		this.userId = userId;
 		this.userName = userName;
+		this.genger = gender;
 		this.name = name;
 		this.profileImage = profileImage;
 	}
