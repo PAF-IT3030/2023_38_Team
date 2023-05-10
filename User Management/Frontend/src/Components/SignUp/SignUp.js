@@ -6,7 +6,7 @@ class SignUp extends Component {
     constructor(props) {
         super(props);
         this.state = { 
-            emailId : null,
+             : null,
             name: null,
             userName: null,
             password: null

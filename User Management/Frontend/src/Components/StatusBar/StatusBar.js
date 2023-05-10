@@ -17,7 +17,7 @@ class StatusBar extends Component {
     }
 
     getData=()=>{
-        let data=[
+        let =[
             {
                 "username":"anindya_bunny",
                 "imageURL":"https://darresne.com/img/female-avatar.png"
