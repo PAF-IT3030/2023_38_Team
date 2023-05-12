@@ -61,6 +61,19 @@ function CommentList() {
         setComments([...comments, newComment])
         setComment('')
     };
+    const handleUpdate = (cid) => {
+
+        axios
+            .update(`http://localhost:8080/comment/update/${cid}`)
+            .then((response) => {
+                console.log(response.data);
+                window.location.reload()
+            })
+            .catch((error) => {
+                console.error(error);
+            });
+
+    };
 
     return (
         <Grid flexGrow={1}>
