@@ -17,6 +17,8 @@ function CommentList() {
     const [commentData, setCommentData] = useState('');
     const ariaLabel = { 'aria-label': 'description' };
 
+
+    //fetch the comment
     useEffect(() => {
         fetch('http://localhost:8080/comment/getAll')
             .then(response => response.json())
@@ -33,6 +35,7 @@ function CommentList() {
 
     };
 
+    //delete comments
     const handleDelete = (cid) => {
 
         axios
@@ -47,6 +50,7 @@ function CommentList() {
 
     };
 
+    //add comments
     const sendComment = () => {
 
         const newComment = ({ comment: comment })
@@ -61,6 +65,8 @@ function CommentList() {
         setComments([...comments, newComment])
         setComment('')
     };
+
+    //update comments
     const handleUpdate = (cid) => {
 
         axios
