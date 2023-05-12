@@ -47,6 +47,21 @@ function CommentList() {
 
     };
 
+    const sendComment = () => {
+
+        const newComment = ({ comment: comment })
+        fetch("http://localhost:8080/comment/add", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(newComment)
+
+        }).then(() => {
+            console.log("New comment created")
+        })
+        setComments([...comments, newComment])
+        setComment('')
+    };
+
     return (
         <Grid flexGrow={1}>
             <Grid container spacing={2}>
