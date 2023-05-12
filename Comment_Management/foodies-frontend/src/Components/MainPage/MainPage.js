@@ -194,4 +194,4 @@ function CommentList() {
 
 }
 
-export default CommentList;
+export default MainPage;
