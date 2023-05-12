@@ -33,6 +33,20 @@ function CommentList() {
 
     };
 
+    const handleDelete = (cid) => {
+
+        axios
+            .delete(`http://localhost:8080/comment/delete/${cid}`)
+            .then((response) => {
+                console.log(response.data);
+                window.location.reload()
+            })
+            .catch((error) => {
+                console.error(error);
+            });
+
+    };
+
     return (
         <Grid flexGrow={1}>
             <Grid container spacing={2}>
