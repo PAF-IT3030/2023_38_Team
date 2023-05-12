@@ -19,7 +19,7 @@ import com.foodandbeveragereviewers.foodies.Service.CommentsService;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/comments")
+@RequestMapping("/comment")
 public class CommentController {
 
     @Autowired
@@ -28,12 +28,12 @@ public class CommentController {
     @Autowired
     CommentRepo commentRepo;
 
-    @PostMapping("")
+    @PostMapping("/add")
     private Comments submitComment(@RequestBody Comments comment) {
         return commentsService.submitCommentToDB(comment);
     }
 
-    @GetMapping("")
+    @GetMapping("/getAll")
     private ArrayList<Comments> getAllComments() {
         return commentsService.getAllComments();
     }

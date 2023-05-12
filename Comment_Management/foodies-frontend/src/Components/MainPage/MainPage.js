@@ -39,7 +39,7 @@ function CommentList() {
     const handleDelete = (cid) => {
 
         axios
-            .delete(`http://localhost:8080/comment/delete/${cid}`)
+            .delete(`http://localhost:8080/comment/delete/${id}`)
             .then((response) => {
                 console.log(response.data);
                 window.location.reload()
@@ -70,7 +70,7 @@ function CommentList() {
     const handleUpdate = (cid) => {
 
         axios
-            .update(`http://localhost:8080/comment/update/${cid}`)
+            .update(`http://localhost:8080/comment/update/${id}`)
             .then((response) => {
                 console.log(response.data);
                 window.location.reload()
