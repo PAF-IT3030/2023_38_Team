@@ -3,6 +3,12 @@
 
 ### Member 3 - IT20642150 - Lakshan J.A.T(Comments Management function)
 
+1.	Comment Creating - Users should be able to comment on other users' posts.
+2.	Comment View - Users should be able to show their comments
+3.	Comment Editing - Users should be able to edit their own comments.
+4.	Comment Deletion - Users should be able to delete their own comments
+
+
 #### Brief Description of your Solution - 
 
 
