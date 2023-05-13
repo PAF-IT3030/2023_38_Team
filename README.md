@@ -1,4 +1,4 @@
-# Team Name - 
+# Team Name - Galaxy
 # Project Group - 038
 ### Group Leader - IT20247140 - Disanayaka D.M.N.J
 ### Member 2 -  IT20252854 - Premakumara Y.K.V
