@@ -1,4 +1,4 @@
-# Team Name - 
+# Team Name - Galaxy
 # Project Group - 038
 
 ### Member 3 - IT20642150 - Lakshan J.A.T(Comments Management function)
