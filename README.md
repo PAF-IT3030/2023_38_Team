@@ -22,4 +22,5 @@ the mobile application. The entire platform must be secured with OAuth based
 authentication and properly version controlled using Git on GitHub using the
 GitHub Workflow.
 
-
+# Technologies:
+### Backend: Spring Boot, Maven Frontend: ReactJS, Database: MySQL
