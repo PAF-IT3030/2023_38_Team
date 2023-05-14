@@ -27,3 +27,6 @@ authentication and properly version controlled using Git on GitHub using the
 GitHub Workflow.
 
 
+# Technologies:
+### Backend: Spring Boot, Maven Frontend: ReactJS, Database: MySQL
+
